@@ -62,10 +62,29 @@ p {
   color: #666;
 }
 
+/*info section style*/
 #info1 img {
   width: 100%;
 }
 
 #info1 .info-right {
   margin-top: 50px;
+}
+
+#info2 {
+  margin: 20px 0 60px 0;
+}
+
+/*contact form style*/
+#contact {
+  background: url(../img/image3.png);
+  padding: 40px;
+  color: #fff;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+}
+
+/*footer style*/
+footer {
+  padding: 30px;
 }
