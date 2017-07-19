@@ -1,7 +1,7 @@
 /*push main content down*/
 body {
   position: relative;
-  margin-top: 70px;
+  margin-top: 110px;
   font-size: 16px;
 }
 
@@ -17,9 +17,16 @@ p {
 
 /*navbar style*/
 .navbar-default {
-  background: #fff;
+  background: rgba(255,255,255, 0.8);
   border: 0;
   font-family: Poppins;
+  box-shadow: 0 0 1px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Transition to a bigger shadow on hover */
+.navbar-default:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /*logo style*/
